@@ -1,4 +1,4 @@
-<page id="middle" bg_image="cemetery-tombstone-1.png" bg_music="osts-vilo.mp3">
+<page id="middle" bg_image="cemetery-tombstone-1.png" bg_music="osts-fear.mp3">
   <agent
     id="teste"
     text="Tudo bem"
