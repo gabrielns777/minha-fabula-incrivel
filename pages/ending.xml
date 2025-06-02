@@ -1,4 +1,4 @@
-<page id="ending" bg_image="cemetery-tombstone-2.png" bg_music="osts-vilo.mp3">
+<page id="ending" bg_image="cemetery-tombstone-2.png" bg_music="osts-fear.mp3">
   <agent
     id="teste"
     text="thau"
