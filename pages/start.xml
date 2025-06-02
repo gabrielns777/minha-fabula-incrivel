@@ -1,4 +1,4 @@
-<page id="start" bg_image="snow-bg-neve.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="cemetery-noite-dark.png" bg_music="osts-vilo.mp3">
   <agent
     id="teste"
     text="Oi gente"
