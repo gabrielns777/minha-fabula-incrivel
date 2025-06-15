@@ -1,7 +1,7 @@
-<page id="middle" bg_image="pequenavilaescurecida.png" bg_music="">
+<page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
   <agent
     id="teste"
-    text=""
+    text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas."
     color="white"
     x="center"
     y="center"
