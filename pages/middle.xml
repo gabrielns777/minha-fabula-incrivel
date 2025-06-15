@@ -1,11 +1,11 @@
 <page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
   <agent
     id="teste"
-    text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas."
+    text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas. Preciso visitar o mago."
     color="white"
     x="center"
     y="center"
-    font-size="40"
+    font-size="30"
   />
 
   <agent
