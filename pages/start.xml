@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('middle')"
+    on_click="goToPage('start2')"
   />
 </page>
