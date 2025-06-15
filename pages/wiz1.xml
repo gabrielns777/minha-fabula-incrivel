@@ -1,3 +1,19 @@
-<page id="wiz1" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página wiz1" color="white" font-size="24" />
+<page id="wiz1" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
+  <agent
+    id="teste"
+    text="Eu estava esperando por você."
+    color="white"
+    x="center"
+    y="center"
+    font-size="30"
+  />
+
+  <agent
+    id="next_page_text"
+    text="Proxima Pagina"
+    animation="glitch"
+    y="480"
+    x="640"
+    on_click="goToPage('middle')"
+  />
 </page>
