@@ -1,11 +1,11 @@
 <page id="start" bg_image="snow-bg-neve.png" bg_music="">
   <agent
     id="teste"
-    text="Oi tudo bem"
+    text="Era uma bela tarde na nossa pacata vila rodeada por água"
     color="white"
     x="center"
     y="center"
-    font-size="70"
+    font-size="30"
   />
 
   <agent
