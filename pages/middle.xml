@@ -10,8 +10,8 @@
  
   <agent
     id="wizard"
-    image="magodavila.jpg"
-    y="center"
+    image="magodavila_teste.png"
+    y="24"
     x="center"
   />
   
