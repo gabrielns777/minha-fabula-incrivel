@@ -1,11 +1,11 @@
-<page id="middle" bg_image="cemetery-tombstone-1.png" bg_music="">
+<page id="middle" bg_image="pequenavilaescurecida.png" bg_music="">
   <agent
     id="teste"
-    text="Tudo bem"
+    text=""
     color="white"
     x="center"
     y="center"
-    font-size="70"
+    font-size="40"
   />
 
   <agent
