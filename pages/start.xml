@@ -1,7 +1,7 @@
 <page id="start" bg_image="pequenavilaescurecida.png" bg_music="">
   <agent
     id="teste"
-    text="Era uma bela tarde na nossa pequena vila rodeada por água, até que, de repente, ventos frios e nuvens negras como carvão apareceram em meio à primavera..."
+    text="Era uma bela tarde na nossa pequena vila rodeada por água, até que, de repente, ventos frios e nuvens negras como carvão apareceram no meio da primavera..."
     color="white"
     x="center"
     y="center"
