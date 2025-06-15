@@ -1,7 +1,7 @@
-<page id="start" bg_image="snow-bg-neve.png" bg_music="">
+<page id="start" bg_image="pequenavilaaquatica.png" bg_music="">
   <agent
     id="teste"
-    text="Era uma bela tarde na nossa pacata vila rodeada por água"
+    text="Era uma bela tarde na nossa pequena vila rodeada por água, até que..."
     color="white"
     x="center"
     y="center"
