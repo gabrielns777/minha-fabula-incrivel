@@ -7,7 +7,14 @@
     y="center"
     font-size="30"
   />
-
+ 
+  <agent
+    id="wizard"
+    image="magodavila.jpg"
+    y="center"
+    x="center"
+  />
+  
   <agent
     id="next_page_text"
     text="Proxima Pagina"
