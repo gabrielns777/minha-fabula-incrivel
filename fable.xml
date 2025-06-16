@@ -6,8 +6,10 @@
   <property name="magoDialogo" default="0" />
   <property name="magoDialogo2" default="0" />
   <property name="dragaoDialogo" default="0" />
+   <property name="epilogueDialogo" default="0" />
   <property name="pocaoGet" default='false' />
   <property name="plantaGet" default='false' />
+ 
 
   <start />
   <start2 />
