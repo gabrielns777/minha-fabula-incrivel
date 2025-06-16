@@ -2,7 +2,7 @@
   
   <agent id="dragoa" 
     x="center" 
-    y="center" 
+    y="40" 
     image="dragoa2_teste.png"
     on_click="set(dragaoDialogo, 1)"
     />
