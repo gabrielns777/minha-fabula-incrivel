@@ -1,4 +1,4 @@
-<page id="wiz2" bg_image="pequenavilaescurecida.png" bg_music="">
+<page id="wiz2" bg_image="magocasa.png" bg_music="">
 
    <agent
     id="wizard"
@@ -20,19 +20,21 @@
       id="texto-aparece"
       x="490"
       y="240"
-      text="Esta poção lhe protegerá do frio, e esta planta apazigua os espíritos do castelo."
+      text="Esta poção lhe protegerá do frio, e esta planta apazigua os espíritos do castelo. Agora vá."
       color="#ffffff"
       font-size="20"
       animation="fade-in-down"
     />
   </fab-if>
 
+  <fab-if when="$magoDialogo = 1">
   <agent
     id="next_page_text"
-    text="Proxima Pagina"
+    text="Então bora 👉"
     animation="glitch"
     y="480"
     x="640"
     on_click="goToPage('middle')"
   />
+    </fab-if>
 </page>
