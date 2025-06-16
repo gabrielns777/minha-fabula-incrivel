@@ -1,3 +1,28 @@
-<page id="epilogue" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página epilogue" color="white" font-size="24" />
+<page id="epilogue" bg_image="magocasa.png" bg_music="">
+
+  <agent
+    id="wizard"
+    image="magodavila_teste.png"
+    y="240"
+    x="center"
+    on_click="set(magoDialogo2, 1)"
+    />
+    
+  <agent
+    id="mesa"
+    image="mesa_teste.png"
+    y="420"
+    x="center"
+    />
+
+      <agent
+        id="epidialogo"
+        text="Por que você não me falou que tinha um dragão no castelo?"
+        animation="glitch"
+        y="480"
+        x="640"
+        on_click="goToPage('trilha1')"
+      />
+
+  
 </page>
