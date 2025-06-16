@@ -10,8 +10,8 @@
   <fab-if when="$dragaoDialogo = 1">
     <agent
       id="dialogo"
-      x="490"
-      y="240"
+      x="center"
+      y="center"
       text="DRAGOA. D-R-A-G-O-A. Como se não bastasse chegar me assustando, ainda m- enfim. O que veio fazer aqui?"
       color="#ffffff"
       font-size="20"
