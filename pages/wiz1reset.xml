@@ -30,11 +30,22 @@
   <fab-if when="$magoDialogo = 1">
       <agent
         id="start2ToWiz1"
-        text="Proxima Pagina"
-        animation="glitch"
+        text="Pra que serve isso?"
+        animation="fade-in"
         y="480"
-        x="640"
-        on_click="goToPage('wiz1reset)"
+        x="600"
+        on_click="goToPage('wiz2')"
+        />
+  </fab-if>
+
+    <fab-if when="$magoDialogo = 1">
+      <agent
+        id="pocao"
+        image="pocaocalor_teste.png"
+        animation="fade-in"
+        y="360"
+        x="330"
+        on_click="goToPage('wiz2')"
         />
   </fab-if>
 
