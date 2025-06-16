@@ -1,4 +1,4 @@
-<page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
+<page id="wiz1" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
   <agent
     id="teste"
     text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas. Preciso visitar o mago."
