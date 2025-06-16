@@ -27,7 +27,7 @@
       animation="glitch"
       y="480"
       x="180"
-      on_click="goToPage('castelo5')"
+      on_click="goToPage('desfecho1')"
     />
   
   </fab-if>
