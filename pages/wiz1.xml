@@ -2,14 +2,14 @@
   <agent
     id="wizard"
     image="magodavila_teste.png"
-    y="24"
+    y="100"
     x="center"
   />
 
     <agent
     id="mesa"
     image="mesa_teste.png"
-    y="24"
+    y="280"
     x="center"
   />
   
