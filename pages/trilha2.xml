@@ -13,7 +13,7 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('trilha2')"
+    on_click="goToPage('castelo1')"
   />
 
 </page>
