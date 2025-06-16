@@ -1,6 +1,6 @@
 <page id="start" bg_image="pequenavilaescurecida.png" bg_music="">
   <agent
-    id="teste"
+    id="start1"
     text="Era uma bela tarde na nossa pequena vila rodeada por água, até que, de repente, ventos frios e nuvens negras como carvão apareceram no meio da primavera..."
     color="white"
     x="center"
@@ -9,7 +9,7 @@
   />
 
   <agent
-    id="next_page_text"
+    id="start1ToStart2"
     text="Proxima Pagina"
     animation="glitch"
     y="480"
