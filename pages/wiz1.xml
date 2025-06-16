@@ -17,7 +17,7 @@
   
     <fab-if when="$magoDialogo = 1">
     <agent
-      id="texto-aparece"
+      id="dialogo1"
       x="490"
       y="240"
       text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Beba esta poção, pegue esta planta e vá até o castelo em ruínas. Estou certo de que a resposta está lá."
@@ -51,7 +51,7 @@
 
    <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
      <agent
-       id="next_page_text"
+       id="wiz1ToWiz2"
        text="Pra que serve isso?"
        x="480"
        y="640"
