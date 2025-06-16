@@ -47,18 +47,18 @@
          animation="bounce-in"
          on_click="set(plantaGet, $plantaGet = 'true')"
          />
-  </fab-if>
+</fab-if>
 
    <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
-    <agent
-      id="next_page_text"
-      text="Pra que serve isso?"
-      x="480"
-      y="640"
-      animation="fade-in"
-      on_click="goToPage('wiz2')"
-    />
-  </fab-if>
+     <agent
+       id="next_page_text"
+       text="Pra que serve isso?"
+       x="480"
+       y="640"
+       animation="fade-in"
+       on_click="goToPage('wiz2')"
+       />
+   </fab-if>
     
   />
 </page>
