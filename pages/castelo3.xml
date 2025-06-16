@@ -18,4 +18,16 @@
       animation="fade-in-down"
     />
   </fab-if>
+
+  <fab-if when="$dragaoDialogo = 1">
+    <agent
+    id="next_page_text"
+    text="Eu só vim deixar essa planta aqui..."
+    animation="glitch"
+    y="480"
+    x="600"
+    on_click="goToPage('castelo4')"
+    />
+  </fab-if>
+  
 </page>
