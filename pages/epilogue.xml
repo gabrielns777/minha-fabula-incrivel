@@ -30,10 +30,11 @@
       id="dialogo"
       x="490"
       y="240"
-      text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+      text="Trollagem kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
       color="#ffffff"
       font-size="20"
       animation="fade-in-down"
+      on_click="goToPage('ending')"
     />
   </fab-if>
 
