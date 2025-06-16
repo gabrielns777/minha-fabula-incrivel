@@ -1,3 +1,10 @@
-<page id="castelo1" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página castelo1" color="white" font-size="24" />
+<page id="castelo1" bg_image="castelo1bg.png">
+  
+  <agent id="titulo"
+    x="center"
+    y="80"
+    text="Então é aqui? Que lugarzinho medonho... Vou só entrar, jogar essa planta lá dentro e fugir."
+    color="white"
+    font-size="30" />
+  
 </page>
