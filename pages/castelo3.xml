@@ -29,5 +29,15 @@
     on_click="goToPage('castelo4')"
     />
   </fab-if>
+
+  <fab-if when="$dragaoDialogo = 1">
+    <agent
+    id="planta"
+    image="folhascha_teste.png"
+    animation="bounce-in"
+    y="480"
+    x="550"
+    />
+  </fab-if>
   
 </page>
