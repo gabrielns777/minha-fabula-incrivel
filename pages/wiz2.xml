@@ -1,18 +1,18 @@
 <page id="wiz2" bg_image="magocasa.png" bg_music="">
 
-   <agent
-     id="wizard2"
-     image="magodavila_teste.png"
-     y="240"
-     x="center"
-     on_click="set(magoDialogo2 = 1)"
-  />
-
-    <agent
-      id="mesa2"
-      image="mesa_teste.png"
-      y="420"
-      x="center"
+  <agent
+    id="wizard"
+    image="magodavila_teste.png"
+    y="240"
+    x="center"
+    on_click="set(magoDialogo2, 1)"
+    />
+    
+  <agent
+    id="mesa"
+    image="mesa_teste.png"
+    y="420"
+    x="center"
     />
   
     <fab-if when="$magoDialogo2 = 1">
