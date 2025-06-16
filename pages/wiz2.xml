@@ -15,7 +15,7 @@
     x="center"
     />
   
-    <fab-if when="$magoDialogo2 = 1">
+    <fab-if when="$magoDialogo = 1">
       <agent
         id="dialogo2"
         x="490"
