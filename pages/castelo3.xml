@@ -25,7 +25,7 @@
     text="Eu só vim deixar essa planta aqui..."
     animation="glitch"
     y="480"
-    x="600"
+    x="300"
     on_click="goToPage('castelo4')"
     />
   </fab-if>
