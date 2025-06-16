@@ -15,15 +15,15 @@
     x="center"
     />
 
-      <agent
-        id="epidialogo"
-        text="Por que você não me falou que tinha um dragão no castelo?"
-        animation="glitch"
-        y="480"
-        x="200"
-        color="blue"
-        on_click="goToPage('trilha1')"
-      />
+  <agent
+    id="epidialogo"
+    text="Por que você não me falou que tinha um dragão no castelo?"
+    animation="glitch"
+    y="480"
+    x="200"
+    color="blue"
+    on_click="set(epilogueDialogo, 1)"
+    />
 
   
 </page>
