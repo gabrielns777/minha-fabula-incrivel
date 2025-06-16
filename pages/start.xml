@@ -10,7 +10,7 @@
 
   <agent
     id="start1ToStart2"
-    text="Proxima Pagina"
+    text="Proxima Página"
     animation="glitch"
     y="480"
     x="640"
