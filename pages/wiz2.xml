@@ -1,7 +1,7 @@
 <page id="wiz2" bg_image="magocasa.png" bg_music="">
 
    <agent
-    id="wizard"
+    id="wizard2"
     image="magodavila_teste.png"
     y="240"
     x="center"
@@ -9,7 +9,7 @@
   />
 
     <agent
-      id="mesa"
+      id="mesa2"
       image="mesa_teste.png"
       y="420"
       x="center"
@@ -37,4 +37,5 @@
         on_click="goToPage('middle')"
       />
     </fab-if>
+  
 </page>
