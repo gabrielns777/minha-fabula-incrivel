@@ -1,4 +1,4 @@
-<page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
+<page id="trilha1" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
 
   <agent
     id="texto"
