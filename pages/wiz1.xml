@@ -1,4 +1,4 @@
-<page id="wiz1" bg_image="casamago.png" bg_music="">
+<page id="wiz1" bg_image="magobg.png" bg_music="">
   <agent
     id="wizard"
     image="magodavila_teste.png"
