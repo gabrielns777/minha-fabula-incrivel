@@ -5,6 +5,16 @@
     y="80"
     text="Então é aqui? Que lugarzinho medonho... Vou só entrar, jogar essa planta lá dentro e fugir."
     color="white"
-    font-size="30" />
-  
+    font-size="30"
+    />
+
+  <agent
+    id="next_page_text"
+    text="👆"
+    animation="float"
+    y="400"
+    x="380"
+    on_click="goToPage('trilha2')"
+    />
+
 </page>
