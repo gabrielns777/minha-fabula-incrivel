@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('wiz1')"
+    on_click="goToPage('wiz1reset)"
   />
 </page>
