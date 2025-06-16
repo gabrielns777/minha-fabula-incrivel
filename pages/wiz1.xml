@@ -15,7 +15,7 @@
     x="center"
   />
   
-    <fab-if when="$magoDialogo = 1">
+  <fab-if when="$magoDialogo = 1">
     <agent
       id="dialogo1"
       x="490"
@@ -27,7 +27,7 @@
     />
   </fab-if>
 
-   <fab-if when="$magoDialogo = 1">
+  <fab-if when="$magoDialogo = 1">
     <agent
       id="pocao"
       image="pocaocalor_teste.png"
@@ -38,7 +38,7 @@
     />
   </fab-if>
 
-     <fab-if when="$magoDialogo = 1">
+  <fab-if when="$magoDialogo = 1">
        <agent
          id="plantacha"
          image="folhascha_teste.png"
@@ -49,7 +49,7 @@
          />
 </fab-if>
 
-   <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
+  <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
      <agent
        id="wiz1ToWiz2"
        text="Pra que serve isso?"
