@@ -1,7 +1,9 @@
 <page id="castelo3" bg_image="castelointerior.png">
+  
   <agent id="dragoa" 
     x="center" 
     y="center" 
     image="dragoa2_teste.png" 
     />
+  
 </page>
