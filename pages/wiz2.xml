@@ -20,7 +20,7 @@
         id="dialogo2"
         x="490"
         y="240"
-        text="Esta poção lhe protegerá do frio, e esta planta apazigua os espíritos do castelo. Agora vá."
+        text="Esta poção lhe protegerá do frio, e esta planta apaziguará os espíritos do castelo. Agora vá."
         color="#ffffff"
         font-size="20"
         animation="fade-in-down"
