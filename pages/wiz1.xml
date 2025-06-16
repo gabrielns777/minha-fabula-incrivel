@@ -6,6 +6,18 @@
     x="center"
     on_click="set(magoDialogo, 1)"
   />
+    <fab-if when="$magoDialogo = 1">
+    <agent
+      id="texto-aparece"
+      x="490"
+      y="240"
+      text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Pegue estes dois itens e vá até o castelo em ruínas."
+      color="#ffffff"
+      font-size="20"
+      animation="typewriter"
+    />
+  </fab-if>
+
 
     <agent
     id="mesa"
