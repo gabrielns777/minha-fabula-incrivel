@@ -1,15 +1,15 @@
-<page id="wiz1" bg_image="magobg.png" bg_music="">
+<page id="wiz1" bg_image="magocasa.png" bg_music="">
   <agent
     id="wizard"
     image="magodavila_teste.png"
-    y="100"
+    y="240"
     x="center"
   />
 
     <agent
     id="mesa"
     image="mesa_teste.png"
-    y="280"
+    y="420"
     x="center"
   />
   
