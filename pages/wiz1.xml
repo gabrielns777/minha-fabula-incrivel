@@ -11,10 +11,20 @@
       id="texto-aparece"
       x="490"
       y="240"
-      text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Pegue estes dois itens e vá até o castelo em ruínas."
-      color="#ffffff"
+      text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Beba esta poção, pegue esta planta e vá até o castelo em ruínas. Estou certo de que a resposta está lá."
+      color="#aa55ff"
       font-size="20"
       animation="typewriter"
+    />
+  </fab-if>
+
+   <fab-if when="$magoDialogo = 1">
+    <agent
+      id="pocao"
+      image="pocaocalor.png"
+      x="center"
+      y="center"
+      animation="bounce-in"
     />
   </fab-if>
 
