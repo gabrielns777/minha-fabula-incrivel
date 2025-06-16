@@ -10,7 +10,7 @@
 
   <agent
     id="start2ToWiz1"
-    text="Proxima Pagina"
+    text="Proxima Página"
     animation="glitch"
     y="480"
     x="640"
