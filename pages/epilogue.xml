@@ -20,7 +20,8 @@
         text="Por que você não me falou que tinha um dragão no castelo?"
         animation="glitch"
         y="480"
-        x="640"
+        x="200"
+        color="blue"
         on_click="goToPage('trilha1')"
       />
 
