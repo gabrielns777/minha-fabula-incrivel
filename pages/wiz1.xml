@@ -4,7 +4,7 @@
     image="magodavila_teste.png"
     y="240"
     x="center"
-    on_click="set(progresso, 1)"
+    on_click="set(magoDialogo, 1)"
   />
 
     <agent
