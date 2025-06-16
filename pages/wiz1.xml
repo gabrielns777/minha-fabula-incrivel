@@ -4,8 +4,12 @@
     image="magodavila_teste.png"
     y="240"
     x="center"
+    on_click="set(progresso, 1)"
   />
 
+  <fab-if when="$progresso = 1">
+
+    
     <agent
     id="mesa"
     image="mesa_teste.png"
