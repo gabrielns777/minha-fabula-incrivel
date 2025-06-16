@@ -8,7 +8,7 @@
     on_click="set(magoDialogo, 1)"
   />
 
-    <agent
+  <agent
     id="mesa"
     image="mesa_teste.png"
     y="420"
@@ -28,13 +28,13 @@
   </fab-if>
 
      <fab-if when="$magoDialogo = 1">
-     <agent
-       id="wiz1ToWiz2"
-       text="Pra que serve isso?"
-       x="480"
-       y="640"
-       animation="fade-in"
-       on_click="goToPage('wiz2')"
+       <agent
+         id="wiz1ToWiz2"
+         x="480"
+         y="640"
+         text="Pra que serve isso?"
+         animation="fade-in"
+         on_click="goToPage('wiz2')"
        /> 
    </fab-if>
 
@@ -45,6 +45,7 @@
       x="340"
       y="360"
       animation="bounce-in"
+      on_click="set(pocaoGet, $pocaoGet = 'true'")
     />
   </fab-if>
 
@@ -55,7 +56,11 @@
          x="420"
          y="390"
          animation="bounce-in"
+         on_click="set(plantaGet, $plantaGet = 'true'")
          />
   </fab-if>
+
+  <fab-if when="$pocaoGet = 'true' or $plantaGet = 'true'">
+    
   
 </page>
