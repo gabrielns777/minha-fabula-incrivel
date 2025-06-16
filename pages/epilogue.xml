@@ -25,5 +25,17 @@
     on_click="set(epilogueDialogo, 1)"
     />
 
+    <fab-if when="$epilogueDialogo = 1">
+    <agent
+      id="dialogo"
+      x="490"
+      y="240"
+      text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+      color="#ffffff"
+      font-size="20"
+      animation="fade-in-down"
+    />
+  </fab-if>
+
   
 </page>
