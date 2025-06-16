@@ -1,13 +1,20 @@
-<page id="wiz1" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
+<page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
   <agent
     id="teste"
-    text="Eu estava esperando por você."
+    text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas. Preciso visitar o mago."
     color="white"
     x="center"
     y="center"
     font-size="30"
   />
-
+ 
+  <agent
+    id="wizard"
+    image="magodavila_teste.png"
+    y="24"
+    x="center"
+  />
+  
   <agent
     id="next_page_text"
     text="Proxima Pagina"
