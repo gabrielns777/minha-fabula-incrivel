@@ -9,8 +9,15 @@
   />
  
   <agent
-    id="wizard"
+    id="mago"
     image="magodavila_teste.png"
+    y="24"
+    x="center"
+  />
+
+    <agent
+    id="mesa"
+    image="mesa_teste.png"
     y="24"
     x="center"
   />
