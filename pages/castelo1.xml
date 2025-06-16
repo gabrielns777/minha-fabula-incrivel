@@ -14,7 +14,7 @@
     animation="float"
     y="400"
     x="380"
-    on_click="goToPage('trilha2')"
+    on_click="goToPage('castelo2')"
     />
 
 </page>
