@@ -3,7 +3,7 @@
     id="desfecho1"
     text="(Algumas horas depois) 
     As nuvens negras já sumiram?"
-    color="white"
+    color="black"
     x="center"
     y="center"
     font-size="30"
@@ -15,6 +15,7 @@
     animation="glitch"
     y="480"
     x="640"
+    color="black"
     on_click="goToPage('desfecho2')"
   />
 </page>
