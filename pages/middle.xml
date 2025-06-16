@@ -14,14 +14,6 @@
     y="24"
     x="center"
   />
-
-    <agent
-    id="mesa"
-    image="mesa_teste.png"
-    y="24"
-    x="center"
-  />
-  
   <agent
     id="next_page_text"
     text="Proxima Pagina"
