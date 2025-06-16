@@ -1,11 +1,11 @@
 <page id="wiz2" bg_image="magocasa.png" bg_music="">
 
    <agent
-    id="wizard2"
-    image="magodavila_teste.png"
-    y="240"
-    x="center"
-    on_click="set(magoDialogo2 = 1)"
+     id="wizard2"
+     image="magodavila_teste.png"
+     y="240"
+     x="center"
+     on_click="set(magoDialogo2 = 1)"
   />
 
     <agent
