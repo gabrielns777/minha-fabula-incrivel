@@ -1,4 +1,5 @@
 <page id="wiz1" bg_image="magocasa.png" bg_music="">
+  
   <agent
     id="wizard"
     image="magodavila_teste.png"
@@ -6,6 +7,14 @@
     x="center"
     on_click="set(magoDialogo, 1)"
   />
+
+    <agent
+    id="mesa"
+    image="mesa_teste.png"
+    y="420"
+    x="center"
+  />
+  
     <fab-if when="$magoDialogo = 1">
     <agent
       id="texto-aparece"
@@ -40,22 +49,15 @@
          />
   </fab-if>
 
-    <agent
-    id="mesa"
-    image="mesa_teste.png"
-    y="420"
-    x="center"
-  />
-
    <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
     <agent
-      id="nextpage"
-      text="Então vou indo 👉"
+      id="next_page_text"
+      text="Entao vou indo"
       x="480"
       y="640"
       animation="fade-in"
       on_click="goToPage('middle')"
-    />
+      />
   </fab-if>
     
   />
