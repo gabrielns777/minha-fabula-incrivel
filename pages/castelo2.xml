@@ -1,3 +1,19 @@
-<page id="castelo2" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página castelo2" color="white" font-size="24" />
+<page id="castelo2" bg_image="olhodragao.png">
+  
+  <agent id="dialogo"
+    x="center" 
+    y="80" 
+    text="Qu- COMO OUSA?" 
+    color="white" 
+    font-size="30" />
+
+  <agent
+    id="next_page_text"
+    text="Ah desculpa eu só tava AAAAAH UM DRAGÃO???"
+    animation="glitch"
+    y="480"
+    x="600"
+    on_click="goToPage('castelo2')"
+    />
+
 </page>
