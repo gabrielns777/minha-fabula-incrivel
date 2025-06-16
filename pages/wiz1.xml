@@ -59,6 +59,5 @@
        on_click="goToPage('wiz2')"
        /> 
    </fab-if>
-    
-  />
+  
 </page>
