@@ -2,7 +2,7 @@
   <agent
     id="desfecho2"
     text="(no dia seguinte) OXI, não é que a dragoa tava certa?"
-    color="black"
+    color="ghostwhite"
     x="center"
     y="center"
     font-size="30"
@@ -14,7 +14,7 @@
     animation="glitch"
     y="480"
     x="640"
-    color="black"
+    color="white"
     on_click="goToPage('ending')"
   />
 </page>
