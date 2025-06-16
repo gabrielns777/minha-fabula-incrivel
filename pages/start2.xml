@@ -1,6 +1,6 @@
 <page id="start2" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
   <agent
-    id="teste"
+    id="start2"
     text="Uma nevasca fortíssima atingiu a nossa vila, congelando a água e as plantas. Talvez o mago saiba algo a respeito."
     color="white"
     x="center"
@@ -9,7 +9,7 @@
   />
 
   <agent
-    id="next_page_text"
+    id="start2ToWiz1"
     text="Proxima Pagina"
     animation="glitch"
     y="480"
