@@ -22,7 +22,7 @@
     <agent
       id="pocao"
       image="pocaocalor_teste.png"
-      x="330"
+      x="340"
       y="360"
       animation="bounce-in"
     />
@@ -31,9 +31,9 @@
      <fab-if when="$magoDialogo = 1">
     <agent
       id="plantacha"
-      image="folhascha.png"
-      x="330"
-      y="360"
+      image="folhascha_teste.png"
+      x="420"
+      y="390"
       animation="bounce-in"
     />
   </fab-if>
