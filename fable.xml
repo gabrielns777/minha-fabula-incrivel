@@ -4,6 +4,8 @@
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
   <property name="magoDialogo" default="0" />
+  <property name="pocaoGet" default="False" />
+  <property name="plantaGet" default="False" />
 
   <start />
   <start2 />
