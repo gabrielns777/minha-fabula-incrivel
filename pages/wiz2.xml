@@ -5,7 +5,7 @@
     image="magodavila_teste.png"
     y="240"
     x="center"
-    on_click="set(magoDialogo2, $magodialogo2 = 1)"
+    on_click="set(magoDialogo2 = 1)"
   />
 
     <agent
