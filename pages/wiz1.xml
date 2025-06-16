@@ -12,9 +12,9 @@
       x="490"
       y="240"
       text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Beba esta poção, pegue esta planta e vá até o castelo em ruínas. Estou certo de que a resposta está lá."
-      color="#aa55ff"
+      color="#ffffff"
       font-size="20"
-      animation="typewriter"
+      animation="fade-in-down"
     />
   </fab-if>
 
@@ -25,6 +25,7 @@
       x="340"
       y="360"
       animation="bounce-in"
+      on_click="set(pocaoGet, $pocaoGet = True)"
     />
   </fab-if>
 
