@@ -57,7 +57,7 @@
       y="640"
       animation="fade-in"
       on_click="goToPage('middle')"
-      />
+    />
   </fab-if>
     
   />
