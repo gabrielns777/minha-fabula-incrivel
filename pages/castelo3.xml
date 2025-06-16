@@ -1,22 +1,21 @@
 <page id="castelo3" bg_image="castelointerior.png">
-  
-  <agent id="dragoa" 
-    x="center" 
-    y="40" 
+  <agent
+    id="dragoa"
+    x="center"
+    y="40"
     image="dragoa2_teste.png"
     on_click="set(dragaoDialogo, 1)"
-    />
+  />
 
   <fab-if when="$dragaoDialogo = 1">
     <agent
       id="dialogo"
-      x="center"
-      y="center"
+      x="40"
+      y="350"
       text="DRAGOA. D-R-A-G-O-A. Como se não bastasse chegar me assustando, ainda m- enfim. O que veio fazer aqui?"
       color="#ffffff"
       font-size="20"
       animation="fade-in-down"
     />
   </fab-if>
-  
 </page>
