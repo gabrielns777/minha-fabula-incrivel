@@ -17,7 +17,7 @@
 
   <fab-if when="$magoDialogo = 1">
     <agent
-      id=""
+      id="dialogo"
       x="490"
       y="240"
       text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Beba esta poção, pegue esta planta e vá até o castelo em ruínas. Estou certo de que a resposta está lá."
@@ -28,15 +28,14 @@
   </fab-if>
   
   <fab-if when="$magoDialogo = 1">
-    <agent
-      id="dialogo1"
-      x="490"
-      y="240"
-      text="Ah, sabia que viria. Esta é a pior tempestade dos últimos 40 anos. Beba esta poção, pegue esta planta e vá até o castelo em ruínas. Estou certo de que a resposta está lá."
-      color="#ffffff"
-      font-size="20"
-      animation="fade-in-down"
-      />
+      <agent
+        id="start2ToWiz1"
+        text="Proxima Pagina"
+        animation="glitch"
+        y="480"
+        x="640"
+        on_click="goToPage('wiz1reset)"
+        />
   </fab-if>
 
 
