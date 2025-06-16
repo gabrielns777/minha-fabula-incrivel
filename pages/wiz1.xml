@@ -52,7 +52,7 @@
    <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
     <agent
       id="next_page_text"
-      text="Entao vou indo"
+      text="Pra que serve isso?"
       x="480"
       y="640"
       animation="fade-in"
