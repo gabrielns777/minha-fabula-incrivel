@@ -21,9 +21,9 @@
    <fab-if when="$magoDialogo = 1">
     <agent
       id="pocao"
-      image="pocaocalor.png"
-      x="center"
-      y="center"
+      image="pocaocalor_teste.png"
+      x="330"
+      y="360"
       animation="bounce-in"
     />
   </fab-if>
