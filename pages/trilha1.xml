@@ -2,7 +2,7 @@
 
   <agent
     id="texto"
-    text="Por que essa plantinha apaziguaria espíritos? Não entendi, mas se é isso que eu tenho que fazer, então tudo bem."
+    text="Por que essa plantinha apaziguaria espíritos? Não sei, mas se é isso que eu tenho que fazer, então tudo bem."
     y="center"
     x="center"
     on_click="goToPage('ending')"
