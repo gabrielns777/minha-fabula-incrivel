@@ -31,7 +31,7 @@
       <agent
         id="start2ToWiz1"
         text="Pra que serve isso?"
-        animation="fade-in"
+        animation=""
         y="480"
         x="600"
         on_click="goToPage('wiz2')"
