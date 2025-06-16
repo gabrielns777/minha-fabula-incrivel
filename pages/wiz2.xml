@@ -17,7 +17,7 @@
   
     <fab-if when="$magoDialogo2 = 1">
       <agent
-        id="texto-aparece"
+        id="dialogo2"
         x="490"
         y="240"
         text="Esta poção lhe protegerá do frio, e esta planta apazigua os espíritos do castelo. Agora vá."
@@ -29,7 +29,7 @@
 
     <fab-if when="$magoDialogo2 = 1">
       <agent
-        id="next_page_text"
+        id="wiz2ToMiddle"
         text="Então bora 👉"
         animation="glitch"
         y="480"
