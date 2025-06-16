@@ -25,20 +25,20 @@
       x="340"
       y="360"
       animation="bounce-in"
-      on_click="set(pocaoGet, $pocaoGet = True)"
+      on_click="set(pocaoGet, $pocaoGet = 'true')"
     />
   </fab-if>
 
      <fab-if when="$magoDialogo = 1">
-    <agent
-      id="plantacha"
-      image="folhascha_teste.png"
-      x="420"
-      y="390"
-      animation="bounce-in"
-    />
+       <agent
+         id="plantacha"
+         image="folhascha_teste.png"
+         x="420"
+         y="390"
+         animation="bounce-in"
+         on_click="set(plantaGet, $plantaGet = 'true')"
+         />
   </fab-if>
-
 
     <agent
     id="mesa"
@@ -46,13 +46,17 @@
     y="420"
     x="center"
   />
-  
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('middle')"
+
+   <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
+    <agent
+      id="saida"
+      text="Então vou indo 👉"
+      x="480"
+      y="640"
+      animation="fade-in"
+      on_click="goToPage('middle')"
+    />
+  </fab-if>
+    
   />
 </page>
