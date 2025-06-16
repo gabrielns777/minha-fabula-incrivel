@@ -1,3 +1,19 @@
 <page id="trilha2" bg_image="trilha2bg.png">
-  <agent id="titulo" x="center" y="center" text="Página trilha2" color="black" font-size="30" />
+  
+  <agent id="trilha2"
+    x="center"
+    y="40"
+    text="São 9 da manhã, mas é como se fosse fim de tarde. Pelo menos aquela poção é ótima! Eu não sinto frio nenhum!"
+    color="white"
+    font-size="30" />
+
+  <agent
+    id="next_page_text"
+    text="Proxima Pagina"
+    animation="glitch"
+    y="480"
+    x="640"
+    on_click="goToPage('trilha2')"
+  />
+
 </page>
