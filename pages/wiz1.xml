@@ -39,7 +39,7 @@
   </fab-if>
 
   <fab-if when="$magoDialogo = 1">
-       <agent
+      <agent
          id="plantacha"
          image="folhascha_teste.png"
          x="420"
@@ -47,7 +47,7 @@
          animation="bounce-in"
          on_click="set(plantaGet, $plantaGet = 'true')"
          />
-</fab-if>
+  </fab-if>
 
   <fab-if when="$pocaoGet = 'true' and $plantaGet = 'true'">
      <agent
