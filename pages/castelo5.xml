@@ -1,3 +1,34 @@
-<page id="castelo5" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página castelo5" color="white" font-size="24" />
+<page id="castelo5" bg_image="castelointerior.png">
+ 
+  <agent
+    id="dragoa"
+    x="center"
+    y="40"
+    image="dragoa2_teste.png"
+    on_click="set(dragaoDialogo, 1)"
+  />
+
+  <fab-if when="$dragaoDialogo = 1">
+    <agent
+      id="dialogo"
+      x="80"
+      y="350"
+      text="Inverno? Ah, entendi. Quando eu tenho alergia, eu perco um pouco o controle sobre a minha magia de gelo. Nessa primavera em especial eu tive uma baita crise! Mas não se preocupe, com esse chá eu vou melhorar."
+      color="#ffffff"
+      font-size="20"
+      animation="fade-in-down"
+    />
+  </fab-if>
+
+  <fab-if when="$dragaoDialogo = 1">
+    <agent
+      id="next_page_text"
+      text="Hã... Uma alergia causadora de invernos... Meu cérebro tá derretendo..."
+      animation="glitch"
+      y="480"
+      x="140"
+      on_click="goToPage('castelo5')"
+    />
+  
+  </fab-if>
 </page>
