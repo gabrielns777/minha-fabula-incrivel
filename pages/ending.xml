@@ -1,11 +1,11 @@
 <page id="ending" bg_image="cemetery-tombstone-2.png" bg_music="">
   <agent
     id="teste"
-    text="thau"
+    text="ai tudo voltou ao normal como se nada tivesse acontecido kkk bjos thau"
     color="white"
     x="center"
     y="center"
-    font-size="70"
+    font-size="60"
   />
 
   <agent
