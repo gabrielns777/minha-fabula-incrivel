@@ -28,6 +28,16 @@
     />
   </fab-if>
 
+     <fab-if when="$magoDialogo = 1">
+    <agent
+      id="plantacha"
+      image="folhascha.png"
+      x="330"
+      y="360"
+      animation="bounce-in"
+    />
+  </fab-if>
+
 
     <agent
     id="mesa"
