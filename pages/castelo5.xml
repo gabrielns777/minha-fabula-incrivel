@@ -11,9 +11,9 @@
   <fab-if when="$dragaoDialogo = 1">
     <agent
       id="dialogo"
-      x="80"
+      x="0"
       y="350"
-      text="Inverno? Ah, entendi. Quando eu tenho alergia, eu perco um pouco o controle sobre a minha magia de gelo. Nessa primavera em especial eu tive uma baita crise! Mas não se preocupe, com esse chá eu vou melhorar."
+      text="Inverno? Ah, entendi. Quando eu tenho alergia, eu perco um pouco o controle sobre a minha magia de gelo. Nessa primavera em especial eu tive uma baita crise! Mas não se preocupe, eu vou melhorar com o chá."
       color="#ffffff"
       font-size="20"
       animation="fade-in-down"
@@ -26,7 +26,7 @@
       text="Hã... Uma alergia causadora de invernos... Meu cérebro tá derretendo..."
       animation="glitch"
       y="480"
-      x="140"
+      x="180"
       on_click="goToPage('castelo5')"
     />
   
