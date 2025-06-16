@@ -1,4 +1,14 @@
 <page id="middle" bg_image="pequenavilacongeladaescurecida.png" bg_music="">
+
+  <agent
+    id="texto"
+    text="Por que essa plantinha apaziguaria espíritos? Não entendi, mas se é isso que eu tenho que fazer, então tudo bem."
+    y="center"
+    x="center"
+    on_click="goToPage('ending')"
+    font-size="30"
+  />
+</page>
   
   <agent
     id="next_page_text"
