@@ -22,7 +22,7 @@
   <fab-if when="$dragaoDialogo = 1">
     <agent
     id="next_page_text"
-    text="Eu só vim deixar essa planta aqui..."
+    text="(Ela fala???) Eu só vim deixar essa planta aqui..."
     animation="glitch"
     y="480"
     x="300"
@@ -36,7 +36,7 @@
     image="folhascha_teste.png"
     animation="bounce-in"
     y="480"
-    x="550"
+    x="260"
     />
   </fab-if>
   
