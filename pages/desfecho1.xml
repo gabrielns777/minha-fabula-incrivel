@@ -1,7 +1,8 @@
 <page id="desfecho1" bg_image="pequenavilacongelada.png" bg_music="">
   <agent
     id="desfecho1"
-    text="Era uma bela tarde na nossa pequena vila rodeada por água, até que, de repente, ventos frios e nuvens negras como carvão apareceram no meio da primavera..."
+    text="(Algumas horas depois) 
+    As nuvens negras já sumiram?"
     color="white"
     x="center"
     y="center"
@@ -14,6 +15,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('start2')"
+    on_click="goToPage('desfecho2')"
   />
 </page>
