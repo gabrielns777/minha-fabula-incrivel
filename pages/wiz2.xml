@@ -5,7 +5,7 @@
     image="magodavila_teste.png"
     y="240"
     x="center"
-    on_click="set(magoDialogo, 1)"
+    on_click="set(magoDialogo2, $magodialogo2 = 1)"
   />
 
     <agent
@@ -15,7 +15,7 @@
     x="center"
   />
   
-    <fab-if when="$magoDialogo = 1">
+    <fab-if when="$magoDialogo2 = 1">
     <agent
       id="texto-aparece"
       x="490"
@@ -27,7 +27,7 @@
     />
   </fab-if>
 
-  <fab-if when="$magoDialogo = 1">
+  <fab-if when="$magoDialogo2 = 1">
   <agent
     id="next_page_text"
     text="Então bora 👉"
