@@ -5,8 +5,8 @@
   <property name="visitante" default="Aventureiro" />
   <property name="magoDialogo" default="0" />
   <property name="magoDialogo2" default="0" />
-  <property name="pocaoGet" default="False" />
-  <property name="plantaGet" default="False" />
+  <property name="pocaoGet" default='true' />
+  <property name="plantaGet" default='true' />
 
   <start />
   <start2 />
