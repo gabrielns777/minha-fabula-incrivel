@@ -38,15 +38,24 @@
         />
   </fab-if>
 
-    <fab-if when="$magoDialogo = 1">
-      <agent
-        id="pocao"
-        image="pocaocalor_teste.png"
-        animation="fade-in"
-        y="360"
-        x="330"
-        on_click="goToPage('wiz2')"
-        />
+  <fab-if when="$magoDialogo = 1">
+    <agent
+      id="pocao"
+      image="pocaocalor_teste.png"
+      animation="bounce-in"
+      y="360"
+      x="340"
+      />
+  </fab-if>
+
+  <fab-if when="$magoDialogo = 1">
+    <agent
+      id="plantacha"
+      image="folhascha_teste.png"
+      animation="bounce-in"
+      y="390"
+      x="420"
+      />
   </fab-if>
 
 
