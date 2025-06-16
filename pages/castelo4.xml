@@ -11,9 +11,9 @@
   <fab-if when="$dragaoDialogo = 1">
     <agent
       id="dialogo"
-      x="80"
+      x="0"
       y="350"
-      text="Ahhh, é a plantinha pro meu chá! Finalmente vou melhorar das minhas alergias!"
+      text="Ahhh, é a plantinha pro meu chá! Muito obrigada, eu finalmente vou melhorar das minhas alergias!"
       color="#ffffff"
       font-size="20"
       animation="fade-in-down"
