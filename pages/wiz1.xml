@@ -56,7 +56,7 @@
       x="480"
       y="640"
       animation="fade-in"
-      on_click="goToPage('middle')"
+      on_click="goToPage('wiz2')"
     />
   </fab-if>
     
