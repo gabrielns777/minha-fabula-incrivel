@@ -1,3 +1,20 @@
-<page id="desfecho2" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página desfecho2" color="white" font-size="24" />
+<page id="desfecho2" bg_image="pequenavilaaquatica.png" bg_music="">
+  <agent
+    id="desfecho2"
+    text="(no dia seguinte) OXI, não é que a dragoa tava certa?"
+    color="black"
+    x="center"
+    y="center"
+    font-size="30"
+  />
+
+  <agent
+    id="start1ToStart2"
+    text="Proxima Página"
+    animation="glitch"
+    y="480"
+    x="640"
+    color="black"
+    on_click="goToPage('ending')"
+  />
 </page>
